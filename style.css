@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+}
+header{
+    background-color: #001e3d;
+}
+button{
+    border: none;
+    color: #ffffff;
+    background-color: #001e3d;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+.anim{
+    background-color: #3399FF;
+}
+.anim:before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: ;
+}

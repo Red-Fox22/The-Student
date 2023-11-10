@@ -4,21 +4,13 @@ body{
 header{
     background-color: #001e3d;
 }
-button{
-    border: none;
-    color: #ffffff;
-    background-color: #001e3d;
-    padding: 10px;
-    font-size: 15px;
-    cursor: pointer;
-    transition: all 400ms ease;
+.button {
+  background-color: #001e3d;
+  padding: 10px 20px;
+  transition: background-color 0.25s, transform 0.25s;
 }
-.anim{
-    background-color: #3399FF;
-}
-.anim:before{
-    content: '';
-    position: absolute;
-    top: 0px;
-    left: ;
+
+.button:hover {
+  background-color: #000;
+  transform: scale(1.1);
 }

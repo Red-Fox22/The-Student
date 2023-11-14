@@ -8,9 +8,12 @@
   }
   header{
     background-color: #001e3d;
-    align-items: start;
     vertical-align: top;
     color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-height: 79px;
   }
 button {
   background-color: #001e3d;

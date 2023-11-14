@@ -3,9 +3,6 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: medium
   }
-  main{
-    margin: 50px
-  }
   header{
     background-color: #001e3d;
     vertical-align: top;
@@ -15,6 +12,10 @@
     align-items: center;
     max-height: 79px;
   }
+  main{
+    margin: 50px
+  }
+  
 button {
   background-color: #001e3d;
   padding: 30px;
